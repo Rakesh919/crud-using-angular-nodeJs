@@ -1,0 +1,15 @@
+<form action="submit" >
+    <div class="main"> Add new Student</div>
+    <input type="text" class="name" placeholder="enter your name" #name> <br>
+
+    <input type="text" class="email" placeholder="enter your email" #email> <br>
+    
+    <input type="text" class="phone" placeholder="enter your phone number" #phone>  <br>
+    
+    <input type="text" class="enroll-number" placeholder="Enrollment number" #enroll> <br>
+    
+    <input type="date" class="date-of-admission" placeholder="Date of admission" #date_of_admission>
+    <br>
+    
+    <button (click)="onSubmit(name.value,email.value,phone.value,enroll.value,date_of_admission.value)">Add</button>
+</form>

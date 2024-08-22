@@ -1,0 +1,41 @@
+
+
+.container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 60px;
+    /* background-color: lightgray; */
+}
+
+.wallet{
+    margin-bottom:15px;
+    color: gold;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+p{
+    font-weight:500;
+    font-size: 23px;
+}
+
+
+th{
+    color: #ACACAC;
+    font-weight: 500;
+}
+
+th,td{
+padding-bottom: 15px;
+padding-right: 25px;
+}
+
+.eye{
+    color: gold;
+}
+
+
+
+
+

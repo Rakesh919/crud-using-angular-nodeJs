@@ -1,0 +1,46 @@
+
+
+
+<body>
+    <div class="students-list">
+        <div class="heading">
+          <p>Students list</p>
+      
+          <div class="flex-box">
+            <div class="arrow ">
+              <mat-icon class="up">arrow_drop_up</mat-icon>
+              <mat-icon class="up">arrow_drop_down</mat-icon>
+            </div>
+      
+            <a [routerLink]="['/addStudent']" routerLinkActive="active-link"><button >Add New Student</button></a>
+          </div>
+        </div>
+        <hr />
+      
+      
+        <table class="students-list-heading">
+          <tr class="table-heading">
+            <th>Index</th>
+            <th>Name</th>
+            <th >Email</th>
+            <th>Phone</th>
+            <th>Enroll Number</th>
+            <th>Date of Admission</th>  
+            <th></th>
+            <th></th>
+          </tr>
+
+          <tr class="table-data" *ngFor="let student of students ;let i = index">
+            <td>{{i+1}}</td>
+            <td>{{student.name}}</td>
+            <td>{{student.email}}</td>
+            <td>{{student.phone}}</td>
+            <td>{{student.enrollment_number}}</td>
+            <td>{{student.date_of_admission}}</td>
+            <td ><mat-icon (click)="sendData(student._id)" class="edit">edit</mat-icon></td>
+            <td ><mat-icon  (click)="deleteUser(student._id)" class="delete" >delete</mat-icon></td>
+          </tr>
+        </table>
+      </div>
+   
+</body>

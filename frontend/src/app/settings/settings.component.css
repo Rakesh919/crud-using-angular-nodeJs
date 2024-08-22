@@ -1,0 +1,10 @@
+.container{
+    background-color: lightblue;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+mat-icon{
+    margin-left: 10px;
+}

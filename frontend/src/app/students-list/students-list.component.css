@@ -1,0 +1,142 @@
+.heading {
+  display: flex;
+  font-size: 25px;
+  font-weight: 500;
+  align-items: center;
+  height: 60px;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.heading > p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  height: 45px;
+  width: 200px;
+  color: white;
+  background-color: #feaf00;
+  border: none;
+  border-radius: 5px;
+}
+
+.flex-box {
+  display: flex;
+}
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+up {
+  margin: 0;
+  padding: 0;
+  color: #feaf00;
+}
+
+mat-icon {
+  color: #feaf00;
+  fill: none;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+/* table {
+  border-spacing: 0;
+} */
+
+.table-heading > th {
+  color: #acacac;
+  font-weight: 450;
+}
+
+td {
+  padding: 10px 25px 5px;
+  border: none;
+  /* padding-right: 20px   ; */
+}
+
+th {
+  padding: 10px 20px 5px;
+}
+tr {
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.delete {
+  color: red;
+}
+
+/* General styling for the table container */
+.students-list-heading {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Styling for the table header */
+.table-heading th {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 10px;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+}
+
+/* Styling for the table data rows */
+.table-data td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+/* Alternating row background for better readability */
+.table-data:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for rows */
+.table-data:hover {
+  background-color: #f1f1f1;
+}
+
+/* Styling for the icons */
+mat-icon.edit {
+  color: #1d68a5; /* Edit icon color */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+mat-icon.edit:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+mat-icon.delete {
+  color: red; /* Delete icon color */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+mat-icon.delete:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .table-heading th,
+  .table-data td {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

@@ -1,0 +1,45 @@
+form{
+    height: 600px;
+    width: 500px;
+    background-color: lightcyan;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.main{
+    padding: 20px;
+    font-size: larger;
+}
+
+input {
+    display: flex;
+    gap: 5px;
+    margin:auto;
+    margin-top: 20px;
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+}
+
+.placeholder{
+    margin-left: 20px;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    border:none;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+}
+
+button:hover{
+    background-color: #1b2ad3;
+}
+
+
+

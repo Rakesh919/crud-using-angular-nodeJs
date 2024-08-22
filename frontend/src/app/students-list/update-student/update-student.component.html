@@ -1,0 +1,15 @@
+<form action="submit"  [formGroup]="studentForm">
+    <div class="main"> Update student details</div>
+    <input type="text" class="name" placeholder="enter your name" value={{name}} formControlName="name"> <br>
+
+    <input type="text" class="email" placeholder="enter your email" value={{email}} formControlName="email"> <br>
+    
+    <input type="text" class="phone" placeholder="enter your phone number" value={{phone}} formControlName="phone">  <br>
+    
+    <input type="text" class="enroll-number" placeholder="Enrollment number" value={{enrollment_number}} formControlName="enrollment_number"> <br>
+    
+    <input type="date" class="date-of-admission" placeholder="Date of admission" value={{date_of_admission}} formControlName="date_of_admission">
+    <br>
+
+    <button (click)="onSubmit(studentForm.value)">Update</button>
+</form>

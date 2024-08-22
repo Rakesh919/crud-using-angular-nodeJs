@@ -1,0 +1,126 @@
+.container1{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transition:transform 0.3s ease-in-out;
+    /* background-color: antiquewhite; */
+}
+
+.components{
+    height: 205px;
+    width: 290px;
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 6px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.container :hover{
+    transform: scale(1.02);
+}
+.components :hover{
+    transform: scale(1);
+}
+#first{
+    background-color: #F0F9FF;
+}
+
+#second{
+    background-color: #FEF6FB;
+}
+
+#third{
+    background-color: #FEFBEC;
+}
+
+#fourth {
+    background: linear-gradient(to right, #FEAF00, #F8D442); /* Left to right */
+  }
+  
+ 
+
+
+ .mat-icon{
+    fill:none;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 50px;
+ } 
+
+
+ p{
+    margin-top: 10px;
+    margin-left: 5px;
+ }
+
+ h2{
+    position: absolute;
+    right: 20px;
+    bottom: 2px;
+ }
+
+
+.bookmark{
+    margin-bottom: 20px;
+    color: gold;
+}
+
+span{
+    color: white;
+}
+
+#first span{
+    color:rgb(145, 241, 169);
+}
+
+#second span{
+    color:rgb(185, 158, 174);
+}
+
+#third span{
+    color:rgb(132, 125, 147);
+}
+
+#fourth  span{
+    font-size: 30px;
+    color: white;
+}
+
+#fifth{
+    background-color: #c1e6d2;
+}
+
+#sixth{
+    background-color: #e6c1c1;
+}
+
+#seven{
+    background-color: #aeb4f5;
+}
+
+#eight{
+    background-color: #82f191;
+}
+#nine{
+    background: linear-gradient(to right, #a79da1, #eee985); /* Left to right */
+}
+
+#ten{
+    background: linear-gradient(to right, #b49bae, #d9d2b7); /* Left to right */
+}
+
+#eleven{
+    background: linear-gradient(to right, #ced2d2, #b7b6b0); /* Left to right */
+}
+
+#twelve{
+    background: linear-gradient(to right, #bbdea1, #2ad746); /* Left to right */
+}

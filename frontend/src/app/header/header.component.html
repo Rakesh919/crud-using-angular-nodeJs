@@ -1,0 +1,52 @@
+<div class="main_div">
+  <div class="main_left_div">
+    <div class="navbar">
+      <div class="crud">Crud operations</div>
+
+      <div class="image"></div>
+
+      <div class="navbar-components">
+        <mat-icon class="home-icon"> home</mat-icon>
+        <a [routerLink]="['/component']" routerLinkActive="active-link">Home</a>
+      </div>
+
+      <div class="navbar-components">
+        <mat-icon> bookmark</mat-icon>
+        <a [routerLink]="['/course']" routerLinkActive="active-link">Course</a>
+      </div>
+
+      <div class="navbar-components">
+        <mat-icon> school</mat-icon>
+        <a
+          (click)="onClick()"
+          [routerLink]="['/student']"
+          routerLinkActive="active-link"
+          >Students</a
+        >
+      </div>
+
+      <div class="navbar-components">
+        <mat-icon> payment</mat-icon
+        ><a [routerLink]="['/payments']" routerLinkActive="active-link"
+          >Payment</a
+        >
+      </div>
+
+      <div class="navbar-components">
+        <mat-icon> bookmark_flag</mat-icon
+        ><a [routerLink]="['/report']" routerLinkActive="active-link">Report</a>
+      </div>
+
+      <div class="navbar-components">
+        <mat-icon> settings</mat-icon
+        ><a [routerLink]="['/settings']" routerLinkActive="active-link"
+          >Settings</a
+        >
+      </div>
+    </div>
+  </div>
+  <div class="main_right_div">
+    <router-outlet></router-outlet>
+    <!-- <app-search-bar></app-search-bar> -->
+  </div>
+</div>
