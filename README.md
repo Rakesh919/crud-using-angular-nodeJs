@@ -1,6 +1,11 @@
 # crud-using-angular-nodeJs
 crud using node Js and angular Js
 
+## figma link --> https://www.figma.com/design/MftxFWmKM0j2Tp2qnNx7bm/Crud-Operations-(Community)?t=IHvMPjmOg6ylSkHO-0
+
+## .env file 
+
+
 ![Screenshot 2024-08-22 152650](https://github.com/user-attachments/assets/33deb6db-fa77-426e-afe0-732eb32efe05)
 ![Screenshot 2024-08-22 152533](https://github.com/user-attachments/assets/4ac36ea9-20e8-4492-b01e-a6e86bda9f53)
 ![Screenshot 2024-08-22 152722](https://github.com/user-attachments/assets/b5caf552-2a9b-4d91-9a9b-a790528fe9ff)
